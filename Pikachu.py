@@ -65,7 +65,7 @@ class Pikachu:
         self.noTrace_goto(x, y)
         t = self.t
 
-        t.fillcolor('#88141D')
+        t.fillcolor('#cf0616')
         t.begin_fill()
         # lower lip
         l1 = []
@@ -127,7 +127,7 @@ class Pikachu:
         t = self.t
         self.noTrace_goto(x, y)
         t.seth(300)
-        t.fillcolor('#DD4D28')
+        t.fillcolor('#b83d1d')
         t.begin_fill()
         a = 2.3
         for i in range(120):
@@ -193,7 +193,7 @@ class Pikachu:
     def body(self):
         t = self.t
 
-        t.fillcolor('#F6D02F')
+        t.fillcolor('#f6e22f')
         t.begin_fill()
         # Right face Contour
         t.penup()
@@ -377,7 +377,7 @@ class Pikachu:
 
         # tail
         self.noTrace_goto(168, 134)
-        t.fillcolor('#F6D02F')
+        t.fillcolor('#f6e22f')
         t.begin_fill()
         t.seth(40)
         t.fd(200)
